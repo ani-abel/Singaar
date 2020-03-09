@@ -1,0 +1,134 @@
+.loader-section, .loader-section-2{ top: 100px !important; position: relative !important; }
+
+.text-capitalize{ text-transform: capitalize !important; }
+
+.text-uppercase{ text-transform: uppercase !important; }
+
+.text-lowercase{ text-transform: lowercase !important; }
+
+.main-header{ height: 100vh; }
+
+.btn-extend{ width: 100% !important; display: block !important; }
+
+.fade-out{ opacity: 0 !important; }
+
+h1,h2,h3,h4,h5,h6{ margin-bottom: 5px !important; }
+
+.primary-overlay
+{
+    background: rgba(63, 57, 77, 0.6);
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.main-header
+{
+    background: url("../images/band-2179313_1920.jpg") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    height: 100vh;
+    min-height: 600px;
+    color: #fff;
+    position: relative;
+}
+
+.main-header .showcase{ padding-top: 110px; }
+
+
+.nav-link-lg:hover,
+.link-active{ border-bottom: 3px solid teal !important; background: rgba(0, 0,0, 0.6); }
+
+.widget-icon{ text-shadow: 1px 2px rgba(0,0,0,0.6) !important; }
+
+.video-con{ height: 280px; }
+
+.border-top{ border-top: 1px solid #f2f2f2 !important; }
+
+.no-text-thickness{ font-weight: normal !important; }
+
+.no-padding{ padding: 0 !important; }
+
+.no-padding h5{ margin: 5px 0 !important; }
+
+.partial-padding{ padding: 2px 0 !important; }
+
+.no-padding>video{ width: 100%; height: 100% !important; }
+
+.section-trending-stories,
+.section-artist-of-the-month{ padding-bottom: 30px !important; }
+
+.section-call-to-action
+{
+    position: relative;
+    background: url("../images/microphone-1102739_1920.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-top: #333 solid 2px;
+    min-height: 300px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey !important;
+    border-radius: 10px !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #1E88E5 !important;
+    border-radius: 10px !important;
+}
+
+.section-call-to-action .primary-overlay{ background: rgba(0, 0, 0, 0.8) !important; }
+
+.page-footer ul>li{ padding-bottom: 20px !important; }
+
+.section-form-hold .card{ margin-top: 300px !important; }
+
+.tabs .indicator{ background: #1565C0 !important; }
+
+.music-widget{ margin-bottom: 10px !important; }
+
+.form-inline{ display: inline-block !important; vertical-align: top !important; }
+
+.highlight-username{ background: #1976D2 !important; }
+
+.highlight-username .widget-name{ color: #fff !important; }
+
+@media(max-width: 600px){
+    .main-header{
+        height: 20vh !important;
+        background: url("../images/band-2179313_640.jpg") !important;
+        background-size: cover !important;
+        background-position: center !important;
+    }
+
+    h1, h2{ font-size: 38px !important; }
+
+    h3{ font-size: 33px !important; }
+
+    .trigger-search-sm{ margin-top: 1%; }
+
+    .section-call-to-action
+    {
+        background: url("../images/microphone-1102739_640.jpg") no-repeat;
+        background-size: cover;
+        background-position: center;
+        max-height: 150px;
+    }
+
+    .section-blog-single-main-img>img{ height: 280px !important; }
+
+    .form-inline{ display: block !important; margin-top: 8px !important; }
+
+}
+

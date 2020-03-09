@@ -1,0 +1,34 @@
+body{ overflow-x: hidden !important; }
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey !important;
+    border-radius: 10px !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #1E88E5 !important;
+    border-radius: 10px !important;
+}
+
+.loader{ position: absolute !important; top: 40% !important; left: 47% !important; }
+
+.text-capitalize{ text-transform: capitalize !important; }
+
+.text-uppercase{ text-transform: uppercase !important; }
+
+.text-lowercase{ text-transform: lowercase !important; }
+
+.btn-extend{ display: block !important; width: 100% !important; }
+
+.default-card{ padding: 20px 5px 30px 5px; }
+
+.img-bordered-sm{ border: 2px solid #d5d5d5; }
+
+.img-bordered-lg{ border: 5px solid #d5d5d5; }

@@ -1,0 +1,59 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond $1 !^(config|css|fonts|robots\.txt|PHP_classes|images|uploads|includes|js|Lib|blogger_writer\\css)
+
+RewriteRule ^home/?$ index.php [L]
+
+RewriteRule ^music/?$ php/music.php [L]
+
+RewriteRule ^top-artists/?$ php/top_artists.php [L]
+
+RewriteRule ^all-artists/?$ php/artists.php [L]
+
+RewriteRule ^login/?$ php/login.php [L]
+
+RewriteRule ^sign-up/?$ php/sign_up.php [L]
+
+RewriteRule ^blog/?$ php/blog.php [L]
+
+RewriteRule ^artist-interviews/?$ php/artist_interviews.php [L]
+
+RewriteRule ^blogger/home/?$ blogger_writer/index.php [L]
+
+RewriteRule ^blogger/posts/?$ blogger_writer/posts.php [L]
+
+RewriteRule ^admin/home$ admin/index.php [L]
+
+RewriteRule ^admin/posts$ admin/posts.php [L]
+
+RewriteRule ^admin/manage-artists$ admin/manage_artist.php [L]
+
+RewriteRule ^admin/manage-songs$ admin/manage_audios.php [L]
+
+RewriteRule ^admin/manage-videos$ admin/manage_audios.php [L]
+
+RewriteRule ^admin/manage-interviews$ admin/manage_interviews.php [L]
+
+RewriteRule ^admin/messaging$ admin/messaging.php [L]
+
+RewriteRule ^admin/posts$ admin/posts.php [L]
+
+#RewriteBase /
+RewriteRule ^search/(\w+)$ php/search.php?q=$1
+
+#RewriteRule ^/?options/search/(.*?)/?$ php/search.php?q=$1 [L]
+
+#RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ php/search.php?q=([^\&\ ]+)
+#RewriteRule ^/?users\.php$ /users/%1? [L,R=301]
+
+#RewriteRule ^options/search$ php/search.php [L]
+
+#RewriteRule ^options/search/?([^/\.]+)?$ php/search.php?q=$1 [L]
+
+#RewriteRule ^singaar.com/blogger/ /singaar.com/blogger_writer/index.php [L]
+
+RewriteRule ^singaar.com/blogger/posts/([^/.]+)?$ singaar.com/blogger_writer/details.php?post_id=$1 [L]
+
+#Options All-Indexes

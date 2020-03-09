@@ -1,0 +1,40 @@
+body{ overflow-x: hidden !important; }
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey !important;
+    border-radius: 10px !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #1E88E5 !important;
+    border-radius: 10px !important;
+}
+
+.loader{ position: absolute !important; top: 40% !important; left: 47% !important; }
+
+.loader-section{ top: 100px !important; position: relative !important; }
+
+.text-capitalize{ text-transform: capitalize !important; }
+
+.text-uppercase{ text-transform: uppercase !important; }
+
+.text-lowercase{ text-transform: lowercase !important; }
+
+.text-bold{ font-weight: bold !important; }
+
+.text-italic{ font-style: italic !important; }
+
+.btn-extend{ display: block !important; width: 100% !important; }
+
+.emphais{ font-size: 20px !important; }
+
+.tabs .indicator{ background: #1565C0 !important; }
+
+.form-inline{ display: inline-block !important; vertical-align: top !important; }
